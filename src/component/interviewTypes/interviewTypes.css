@@ -1,0 +1,32 @@
+.interview {
+    width: 291px;
+    height: 83px;
+    background: #FFFFFF;
+    border: 1px solid #EEF1F5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: start;
+    padding: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+p {
+    margin:0px;
+    margin-top: 8px;
+}
+.icon {
+    color:#3359DF;
+    font-size: 30px;
+}
+.createNewInterview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}

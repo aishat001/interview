@@ -1,0 +1,11 @@
+.assessment, .configuration {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header {
+    margin: 0px;
+    padding: 10px;
+    margin-left: 20px;
+  }

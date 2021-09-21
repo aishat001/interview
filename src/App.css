@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.logoHeader {
+  width: 85%;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.AppContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sideNav {
+  width: 260px;
+  height: 396px;
+  left: 31px;
+  top: 69px;
+  background: #FFFFFF;  
+  border: 1px solid #EEF1F5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  padding: 5px;
+}
+.sideNav-item{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background: rgba(67, 97, 238, 0.06);
+  border-radius: 8px;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 15px 4px;
+  /* font-family: Publica Sans Round; */
+font-style: normal;
+font-weight: bold;
+text-decoration: none;
+color: #3359DF;}
+.sideNav-item > a {
+  text-decoration: none;
+  margin-left: 13px;
+  color: #3359DF;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.interviewContainer {
+  height: max-content;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: start;
+  float: right;
+}
+.interviewContainer > .interview > p {
+  margin: 0px;
+  margin-top: 2px;
+}
+
+
+.createNewInterview {
+  position: static;
+width: 291px;
+height: 83px;
+background: rgba(67, 97, 238, 0.05);
+border: 1.4px dashed #3359DF;
+box-sizing: border-box;
+border-radius: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

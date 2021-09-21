@@ -1,0 +1,34 @@
+{
+  "interviews": [
+    {
+      "name": "React Foundation",
+      "title": "basic",
+      "totalScore": 10,
+      "questions": [
+        "differentiate between real dom and virtual dom",
+        "what is state in react and how it is used",
+        "explain the lifecycle methods of react"
+      ]
+    },
+    {
+      "name": "VueJs",
+      "title": "intermidiate",
+      "totalScore": 10,
+      "questions": [
+        "differentiate between real dom and virtual dom",
+        "what is state in react and how it is used",
+        "explain the lifecycle methods of react"
+      ]
+    },
+    {
+      "name": "nodeJs",
+      "title": "advanced",
+      "totalScore": 10,
+      "questions": [
+        "differentiate between real dom and virtual dom",
+        "what is state in react and how it is used",
+        "explain the lifecycle methods of react"
+      ]
+    }
+  ]
+}
