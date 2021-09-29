@@ -1,11 +1,15 @@
 import { Field, Formik, Form, ErrorMessage } from "formik";
+import { Link } from "react-router-dom";
 import { Title } from "../../types";
+import "../createInterviewForm/addInterview.css"
 
 
-
-const FormField = ({onSubmit, openForm, closeForm}) => {
+const CreateInterview = ({onSubmit}) => {
+  
 
     return (
+      <>
+
             <Formik
         initialValues={{
         name: "",
@@ -32,7 +36,7 @@ const FormField = ({onSubmit, openForm, closeForm}) => {
         return errors;
       }}
       >
-        {({ isValid, dirty }) => {
+        {() => {
 return (
           <Form>
               <label htmlFor="interviewName">Enter Interview Name</label>
@@ -53,9 +57,13 @@ return (
 
               <button type="submit">Save</button>
           </Form>
+          
      );
     }}
+
     </Formik>
+    <Link to="/configuration"> <button>Cancel</button></Link>
+</>
     )
 }
-export default FormField
+export default CreateInterview

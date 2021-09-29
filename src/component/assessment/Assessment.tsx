@@ -1,10 +1,10 @@
-import { Interview } from "../../types";
-import InterviewTypes from "../interviewTypes/InterviewTypes";
+import { SectionInterview } from "../../types";
 import "../assessment/assessment.css"
 import { Link } from "react-router-dom";
+import InterviewTypes from "../interviewTypes/InterviewTypes";
 
 interface AssessmentProps {
-    interviews: Interview[]
+    interviews: SectionInterview[]
 }
 const Assessment: React.FC<AssessmentProps> = ({interviews}) => {
 
@@ -16,7 +16,7 @@ const Assessment: React.FC<AssessmentProps> = ({interviews}) => {
             <div className="interviewContainer">
                 {
                     interviews.map(interview => {
-                        return <Link to='/interview'> <InterviewTypes interview={interview}/> </Link>
+                        return <Link to={`/interviews/${interview.id}`}> <InterviewTypes interview={interview}/> </Link>
                     })
                 }
             </div>

@@ -1,0 +1,46 @@
+
+.fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+}
+.form-container {
+    width: 90%;
+}
+input {
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+label{
+    text-align: justify;
+    margin-top: 20px;
+}
+.form {
+    margin-left: 50px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 100px;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+div.label {
+    margin-top: 20px;
+}
+.question {
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+h1 {
+    background-color: #7f96f1;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+}
